@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="" last-modified="2013-10-08T11:54:00" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description></short_description>
+  <authored_date>2013-10-08T11:54:00</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="">
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.155.57</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.155.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">180.210.204.227</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">k-sho.co.jp</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">finesis.jp</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">110.173.55.187</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">fwb.scieron.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">wsdhealthy.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">tade.org.tw</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gnnet.co.kr</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gothamcenter.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">villagemania.it</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">toronocurling.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ansky.hk166.cqbi.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">219.90.117.132</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">usc-data.suroot.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">66.153.86.14</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">yahooeast.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">usa-mail.scieron.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kissnada58.chatnook.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.143.245</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.143.244</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.143.243</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.213.104</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.64.213.107</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">58.188.5.233</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">update3.effers.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">downloadmp3server.servemp3.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kissnada57.chatnook.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">apples.suroot.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sl1.homelinux.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">360.homelinux.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">aop1.homelinux.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ftp2.homelinux.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">xil.homelinux.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">alt1.homelinux.org</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>

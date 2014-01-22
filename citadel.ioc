@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="" last-modified="2014-01-22T13:27:45" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description></short_description>
+  <authored_date>2014-01-22T13:27:45</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="">
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">googlebarcorp.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gopexvideo10.ru	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gopexvideo18.ru	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gopexvideo30.ru	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gopexvideo98.ru	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kepoxphoto10.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kepoxphoto18.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kepoxphoto20.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kepoxphoto30.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kepoxphoto98.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">tomamar4serv.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">tomsp47serv.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">rims29serv.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">zatix29serv77.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">peteks15serv257.com	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">84.22.106.95	Malicious IP Address	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">84.22.106.96	Malicious IP Address	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">84.22.106.97	Malicious IP Address	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sim-cards-shop.org	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">airtravelers.org	Malicious Domain	Citadel C2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">autosecure.net	Malicious Domain	Fraud Control Panel</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">stexpay.com	Malicious Domain	Fraud Control Panel</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">www.givecheckanon-control.net	Malicious Domain	Fraud Control Panel</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">www.securetechisatcontrol.com	Malicious Domain	Fraud Control Panel</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kamstat135.org	Malicious Domain	Malware Distribution</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
