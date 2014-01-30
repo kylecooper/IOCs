@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="" last-modified="2014-01-30T13:47:10" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description></short_description>
+  <authored_date>2014-01-30T13:47:10</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="">
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">26Hmoinia.eicp.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">bbm2.25u.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">bm2.network-sec.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ddkk.mylftv.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">firefox.dyndns-free.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gw1.kmwweg.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gw.kmwweg.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gwks.kmwweg.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ibm2.mail-signin.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">isacat01.gicp.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">kb.xxuz.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">mail-signin.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">moinia.eicp.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">mykl.sytes.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">nuddjack.dyndns-free.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">osheisme42.jetos.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">proxy.ca.abb.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">proxy.de.abb.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">proxy.fidia.loc</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">proxy.kmweg.wtlsh.de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">proxy.pl.abb.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sheisme42.jetos.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">updata.suroot.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">update.trendmicroa.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">visacat01.gicp.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">174.128.255.228</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">180.178.32.197</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">61.19.248.39</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">174.128.255.231</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">FCB89C7AB7FA08F322148D3B67B34C49</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">90EDDAD3327A63FDEA924FB802BC7DC5</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">77932654F5087AC5E157DFB6FF9B7524</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">CC09AF194ACF2039AD9F6074D89157CA</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">A395EED1D0F8A7A79BDEBBFD6C673CC1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">469D4825C5ACACB62D1C109085790849</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">EB698247808B8E35ED5A9D5FEFD7A3AE</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">F9CB682607185B868AEC9EA38CD44281</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">424F3F1EBDE1D754247E19D8FF86127F</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">89DBF76472F276E7567907678C1F0EA2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">0F1BC876A41A7728F11C1C42267D14F8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">128C17340CB5ADD26BF60DFE2AF37700</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">0205C94858CAD5B39843D788C6DA886A</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">107059294C99A02D8317B736D06B6B26</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">1AE0C39CB9684652C017161F8A5ACA78</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">1D2B0C65BB12C2B2DB6AA10561A5CE27 </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">215E51B64508191DD998F5C5B19B5DE0</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">2C565B067D097D721D86BBA20E5A6CCF</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">312888A0742815CCCC53DC37ABF1A958</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">3C973C1AD37DAE0443A078DBA685C0EA</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">3DEC6DF39910045791EE697F461BAABA</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">449521CE87ED0111DCB0D4BEFF85064D</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">59CB505D1636119F2881CAA14BF42326</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">6802C21D3D0D80084BF93413DC0C23A7</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">6D620D5A903F0D714C30565A9BFDCE8F</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">6EC15A34F058176BE4E4685EDA9A5CFC</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">72662C61AE8EF7566A945F648E9D4DD8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">75B3CCD4D3BFB56B55A46FBA9463D282</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">76767EF2D2BB25EBA45203F0D2E8335B</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">837B6B1601E0FA99F28657DEE244223B</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">8B8D831BBC02B64C09F8D62ACF413FA0</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">8C0CF5BC1F75D71879B48A286F6BEFCF</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">A1FB51343F3724E8B683A93F2D42127B</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">BC32ECB75624A7BEC7A901E10C195307</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">D3AD90010C701E731835142FABB6BFCC</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">DE7500FC1065A081180841F32F06A537 </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">EEB636886ECC9FF3623D10F1EFCF3C09</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">F942F98CFF86F8FCDE7EB0C2F465BE7A</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">62567951F942F6015138449520E67AEB</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">2DCE7FC3F52A692D8A84A0C182519133</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">7A6154E1C07ADED990BD07F604AF4ACF </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">EF0493B075A592ABC29B8E9EC43ACA07</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">985ABC913A294C096718892332631EC9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">42ECDCE7D7DAB7C3088E332FF4F64875</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">106E63DBDA3A76BEEB53A8BBD8F98927</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">42D98DDB0A5B870E8BB828FB2EF22B3F</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
