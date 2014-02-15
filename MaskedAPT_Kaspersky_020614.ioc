@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="" last-modified="2014-02-14T18:02:35" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description>MaskedAPT</short_description>
+  <description>View the full report at http://www.securelist.com/en/downloads/vlpdfs/unveilingthemask_v1.0.pdf</description>
+  <authored_by>Kaspersky Lab</authored_by>
+  <authored_date>2014-02-14T18:02:35</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="">
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">02e75580f15826d20fffb43b1a50344c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">1342ac151eea7a03d51660bb5db018d9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">4dae42d1b80c85b396546ed02a00e328</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">190.10.9.209</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">190.105.232.46</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">196.40.84.94</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">200.122.160.25</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">202.150.211.102</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">202.150.214.50</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">202.75.56.123</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">202.75.56.231</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">202.75.58.153</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">210.48.153.236</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">223.25.232.161</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">37.235.63.127</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">75.126.146.114</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">81.0.233.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">82.208.40.11</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">62.149.227.3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP">75.126.146.114</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">nthost.shacknet.nu</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">tunga.homedns.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">prosoccer1.dyndns.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">prosoccer2.dyndns.info</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">nav1002.ath.cx</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">pininfarina.dynalias.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">wqq.dyndns.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">pl400.dyndns.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">services.serveftp.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">sv.serveftp.org </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">cherry1962.dyndns.org </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">carrus.gotdns.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ricush.ath.cx</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">takami.podzone.net </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">dfup.selfip.org </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">wwnav.selfip.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">fast8.homeftp.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ctronlinenews.dyndns.tv</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">mango66.dyndns.org _</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gx5639.dyndns.tv </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">services.serveftp.org </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">*.redirserver.net </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">*.swupdt.com </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">*.msupdt.com </Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">*.appleupdt.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">*.linkconf.net</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
